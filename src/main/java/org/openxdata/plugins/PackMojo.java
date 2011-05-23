@@ -154,7 +154,8 @@ public class PackMojo extends AbstractMojo {
 
 		if (processMainArtifact)
 			artifactsToPack.add(project.getArtifact());
-		else if (includeClassifiers != null && !includeClassifiers.isEmpty()) {
+
+		if (includeClassifiers != null && !includeClassifiers.isEmpty()) {
 			for (Artifact secondaryArtifact : (List<Artifact>) project
 					.getAttachedArtifacts())
 				if ("jar".equals(secondaryArtifact.getType())
