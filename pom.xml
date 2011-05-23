@@ -4,7 +4,7 @@
 
 	<groupId>org.openxdata.plugins</groupId>
 	<artifactId>maven-pack200-plugin</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>Pack200 Maven Plugin</name>
