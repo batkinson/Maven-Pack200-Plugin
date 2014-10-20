@@ -42,9 +42,9 @@ and bind it to your build's phases.
 The following example configures the plugin to run twice:
 
   * Pack and unpack, so crypto signatures are valid after decompression
-  * Pack the in their final optimized form
+  * Pack the jar in final optimized form
 
-Between these two executions, you configure something to sign the jars.
+Between these two phases, you normally configure jar signing.
 
 ```
 <plugins>
