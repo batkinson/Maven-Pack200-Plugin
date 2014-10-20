@@ -35,9 +35,9 @@ mvn install
 
 ## Configuration
 
-You configure the plugin, you configure it as you would any maven plugin, in the
-project object model file, pom.xml. At a minimum, you need to declare the plugin
-and bind it to your build's phases.
+You configure the plugin as you would any maven plugin, in the project object
+model file, pom.xml. At a minimum, you need to declare the plugin and bind it to
+your build's phases.
 
 The following example configures the plugin to run twice:
 
