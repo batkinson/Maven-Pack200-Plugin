@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.batkinson.plugins</groupId>
-    <artifactId>1.1-SNAPSHOT</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <artifactId>maven-pack200-plugin</artifactId>
+    <version>1.1-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <name>Pack200 Maven Plugin</name>
