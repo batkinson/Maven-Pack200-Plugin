@@ -20,6 +20,13 @@
         </license>
     </licenses>
 
+    <developers>
+        <developer>
+            <name>Brent Atkinson</name>
+            <email>brent.atkinson@gmail.com</email>
+        </developer>
+    </developers>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.maven</groupId>
