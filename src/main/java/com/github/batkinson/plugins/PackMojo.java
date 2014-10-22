@@ -1,4 +1,4 @@
-package org.openxdata.plugins;
+package com.github.batkinson.plugins;
 
 /*
  * Copyright 2001-2005 The Apache Software Foundation.
