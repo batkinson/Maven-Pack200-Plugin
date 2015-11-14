@@ -1,5 +1,7 @@
 # Maven Pack200 Plugin
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.batkinson.plugins/maven-pack200-plugin/badge.svg?style=flat)](http://mvnrepository.com/artifact/com.github.batkinson.plugins/maven-pack200-plugin)
+
 A plugin that enables using the pack200 compression tool within Apache
 Maven2+ builds, simply and flexibly.
 
