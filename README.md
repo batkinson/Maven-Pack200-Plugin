@@ -51,9 +51,9 @@ Between these two phases, you normally configure jar signing.
 ```
 <plugins>
    <plugin>
-      <groupId>org.openxdata.plugins</groupId>
+      <groupId>com.github.batkinson.plugins</groupId>
       <artifactId>maven-pack200-plugin</artifactId>
-      <version>1.0</version> <!-- ensure this matches your version -->
+      <version>1.0.1</version> <!-- ensure this matches your version -->
       <executions>
          <execution>
             <id>normalize-jars</id>
