@@ -115,6 +115,11 @@ public class PackMojo extends AbstractMojo {
      */
     private boolean compress;
 
+    /**
+     * @parameter
+     */
+    private String[] passFiles = {};
+
     @SuppressWarnings("unchecked")
     public void execute() throws MojoExecutionException {
 
@@ -143,6 +148,15 @@ public class PackMojo extends AbstractMojo {
                 getLog().debug("stripping " + attributeName);
                 packerProps.put(Packer.CODE_ATTRIBUTE_PFX + attributeName,
                         Packer.STRIP);
+            }
+        }
+
+        if (passFiles != null) {
+            int pos = 0;
+            for (String passFile : passFiles) {
+                getLog().debug("bypassing " + passFile);
+                packerProps.put(Packer.PASS_FILE_PFX + pos, passFile);
+                pos++;
             }
         }
 
